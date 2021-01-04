@@ -648,6 +648,7 @@ h6,
 p,
 label,
 .btn,
+q,
 a {
     font-family: "helvetica";
     font-weight: 400;
@@ -677,7 +678,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;/* 11px; */
+    position: relative;
 }
 
 .tight-width-whitespace {
@@ -688,6 +690,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    position: relative;
 }
 
 .cta-hero {
@@ -707,6 +710,7 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    position: relative;
 }
 
 h3 {
@@ -775,7 +779,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;/*#F3976C!important; */
 }
 
 .btn-atomic-tangerine {
@@ -823,6 +827,15 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+q {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.quote--author {
+    font-size: 1em;
 }
 
 @media (max-width: 1024px) {
