@@ -32,7 +32,7 @@
 				<a class="navbar-brand" href="index.html">
 					<picture>
 						<source srcset="img/la-chouette-agence-ter.webp" type="image/webp">
-						<img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" />
+						<img src="img/la-chouette-agence.png" alt="une chouette, logo de la chouette agence, web design à Lyon" height="40" />
 					</picture>
 				</a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
@@ -44,7 +44,7 @@
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
-					<li>
+					<li class="menu-active">
 						<a href="contact.html">Contact</a>
 					</li>
 				</ul>
@@ -80,36 +80,36 @@
 				<article class="col-sm-6">
 					<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 						<div class="form-group">
-							<label>
+							<label for="name">
 								Nom
 							</label>
 							<input id="name" class="form-control" required />
 						</div>
 						<div class="form-group">
-							<label>
+							<label for="email">
 								Adresse email
 							</label>
 							<input id="email" class="form-control" type="email" required />
 						</div>
 						<div class="form-group">
-							<label>
+							<label for="input_504">
 								Comment nous avez-vous connu ?
 							</label>
 							<input class="form-control" type="email" required id="input_504" />
 						</div>
 						<div class="form-group">
-							<label>
+							<label for="message">
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 						</div> 
-						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" role="button" aria-label="Soumettre le formulaire">
 							Envoyer
 						</button>
 					</form>
 				</article>
 				<article class="col-sm-6">
 					<p>
-						<a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
+						<a class="contact-email" href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a><br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi au vendredi<br>
 					</p>
 				</article>
 			</div>
@@ -134,22 +134,22 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span><span class="social-text">Twitter</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span><span class="social-text">Facebook</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span><span class="social-text">Dribble</span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span><span class="social-text">Instagram</span></a>
 						</div>
 					</div>
 				</div>
