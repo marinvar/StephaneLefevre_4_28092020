@@ -103,8 +103,8 @@ a:hover {
 }
 
 .webp .texture-paper::before {
-    background: url("img/texture-paper-ter.webp");
-    opacity: .8;
+    background: url("img/texture-paper.png");
+    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -533,7 +533,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -845,10 +845,12 @@ h1 {
 
 .no-webp .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere-bis.jpg");
+    max-height: 440px;
 }
 
 .webp .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere-ter.webp");
+    max-height: 440px;
 }
 
 .no-webp .bg-presentation {
